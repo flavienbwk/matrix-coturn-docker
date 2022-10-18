@@ -125,7 +125,7 @@ generate_turn_configuration() {
 	turn_user=$2
 	turn_password=$3
 	cat << EOF > "$CONFIGURATION_VOIP_FILEPATH"
-turn_uris: ["turn:$turn_main_uri"]
+turn_uris: ["turn:$turn_main_uri:5349"]
 turn_username: "$turn_user"
 turn_password: "$turn_password"
 turn_allow_guests: false

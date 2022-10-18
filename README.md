@@ -6,7 +6,7 @@ Coturn will allow your Matrix instance to perform audio and video calls.
 
 ## Getting started
 
-We recommend using Coturn behind a Cloudflare proxy so you don't get mad with certificates. You may want to use your own as well : just replace certificates in step 1 instead of generating them.
+Due to the number of ports that must be exposed, I recommend you to dedicate one VPS/server for your COTURN server.
 
 1. Generate SSL certificates
 
